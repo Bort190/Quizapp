@@ -1,0 +1,29 @@
+.cardContainer{
+    background-color: cornflowerblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questionFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quizCard{
+    width: 30rem;
+}
+
+.answerCard:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.correctAnswer{
+    background-color: #79cd7991;
+}
+
+.wrongAnswer{
+    background-color: rgb(249 115 105);
+}
